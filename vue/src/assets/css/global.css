@@ -1,0 +1,57 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+/* 卡片视图的阴影 */
+.el-card {
+    /* 水平距离 垂直距离 阴影大小 阴影颜色  */
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+/* 纵向居中对齐 */
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+/* 级联选择器添加高度,否则没有滚动条 */
+.el-scrollbar__wrap{
+  height: 500px ;
+}
+
+/* 分页条上面的包裹容器,有时候高度会比实际需要的长,这里设置自适应高度 */
+.el-select-dropdown__wrap {
+  height: 100%;
+}
+/* 设置步骤条margin */
+.el-steps {
+  margin: 15px 0;
+}
+/* 设置步骤条文字大小 */
+.el-step__title {
+  font-size: 13px;
+}
+/* 设置富文本编辑器最小高度 */
+.ql-editor {
+  min-height: 300px;
+}
